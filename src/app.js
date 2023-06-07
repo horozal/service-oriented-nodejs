@@ -1,5 +1,3 @@
-const Service = require('./components/service');
+const service = require('./components/service.js');
 
-const service = new Service();
-
-console.log('Call Service at port 3000!');
+console.log('Hello from Service');
