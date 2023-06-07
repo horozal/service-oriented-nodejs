@@ -6,6 +6,6 @@ service.get('/service', function (req, res) {
 });
 
 const port = 3000;
-app.listen(port, function () {
-  console.log('Service running on port port');
+service.listen(port, function () {
+  console.log('Service running on port', port);
 });
