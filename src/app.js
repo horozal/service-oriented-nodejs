@@ -1,6 +1,5 @@
-var http = require('http');
+const Service = require('./components/service');
 
-http.createServer(function (req, res) {
-  res.write('Hello World!');
-  res.end(); //end the response
-}).listen(8080);
+const service = new Service();
+
+console.log('Call Service at port 3000!');
